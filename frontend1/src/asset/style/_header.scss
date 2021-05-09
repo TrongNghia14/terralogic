@@ -1,0 +1,28 @@
+.top-bar {
+  background-color: #ffffff;
+  height: 76px;
+  width: 100%;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .icon {
+    background-color: #161c29;
+    width: 79px;
+    height: 76px;
+    border: none;
+  }
+
+  .logo {
+    margin-left: 24px;
+    cursor: pointer;
+  }
+
+  .btn {
+    width: 44px;
+    height: 44px;
+    background-color: #f3f6fc;
+    border: none;
+  }
+}

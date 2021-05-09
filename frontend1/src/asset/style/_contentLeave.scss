@@ -1,0 +1,145 @@
+.cover-content {
+  width: 100%;
+  height: 636px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  background-color: #ffffff;
+  border: 1px solid #ebeff2;
+  .leave {
+    width: 245px;
+    height: 436px;
+    background-color: #fafafa;
+    margin: 16px 16px 184px 16px;
+    padding-top: 65px;
+    padding-left: 25px;
+    .text {
+      width: 220px;
+      height: 51px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      color: #707177;
+      line-height: 51px;
+      cursor: pointer;
+      &-selected {
+        border-radius: 28px 0 0 25px;
+        background-color: rgba(27, 81, 197, 0.37);
+      }
+      span {
+        margin: 18px;
+      }
+    }
+  }
+
+  .table {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #464646;
+
+    .input-icons {
+      width: 220px;
+      margin-bottom: 10px;
+      i {
+        position: absolute;
+      }
+      .icon {
+        padding: 10px;
+        min-width: 40px;
+        color: #d6dce0;
+      }
+      .input-field {
+        width: 220px;
+        height: 34px;
+        padding: 10px;
+        text-align: center;
+        background-color: #ffffff;
+        border: 1px solid #d6dce0;
+        box-sizing: border-box;
+        border-radius: 4px;
+        &::placeholder {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: center;
+          color: #d6dce0;
+          margin-right: 122px;
+        }
+      }
+    }
+    Button {
+      padding: 9px 12px;
+      width: 120px;
+      height: 34px;
+      background: rgba(86, 138, 250, 0.12);
+      border-radius: 5px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      margin-left: 24px;
+      color: #2c6df9;
+    }
+    .search {
+      width: fit-content;
+      display: flex;
+      flex-direction: row;
+      justify-content: right;
+      float: right;
+      margin: 16px 16px 0 0px;
+      img {
+        width: 44px;
+        cursor: pointer;
+        margin-right: 10px;
+      }
+    }
+    hr {
+      border: 1px solid #d6dce0;
+      margin-top: 66px;
+    }
+    .content-table {
+      table {
+        border-radius: 10px;
+        thead {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 15px;
+          background-color: #2c6df9;
+          color: #ffffff;
+          border-radius: 5px 0 0 5px;
+          tr,
+          th {
+            padding: 10px 0 10px 20px;
+          }
+        }
+        tbody {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 13px;
+          line-height: 15px;
+          color: #464646;
+          tr,
+          td {
+            padding: 14.3px 0 17.1px 20px;
+          }
+          .id {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 15px;
+            color: #2c6df9;
+          }
+          .active {
+            size: smaller;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
